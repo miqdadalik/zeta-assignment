@@ -1,0 +1,30 @@
+[
+	{
+		"title": "The account settings screen needs to be mocked up",
+		"status": "success",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Replace dashboard icons with more colorful ones",
+		"status": "danger",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Design new illustrations for the app onboarding screens using Slack as inspiration",
+		"status": "danger",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Slider animation",
+		"status": "warning",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	}
+]

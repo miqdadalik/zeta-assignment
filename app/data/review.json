@@ -1,0 +1,30 @@
+[
+	{
+		"title": "The account settings screen needs to be mocked up",
+		"status": "success",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Replace dashboard icons with more colorful ones",
+		"status": "danger",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Header illustration",
+		"status": "success",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Icons for the dashboard",
+		"status": "warning",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	}
+]

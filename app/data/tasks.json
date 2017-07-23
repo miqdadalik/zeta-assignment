@@ -1,0 +1,37 @@
+[
+	{
+		"title": "Improve the contrast to make Jared happy :D",
+		"status": "danger",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Header Illustration",
+		"status": "success",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Icons for the dashboard",
+		"status": "success",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Design new Illustrations for the app onboarding screens using Slack as an inspiration",
+		"status": "danger",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Slider animation",
+		"status": "success",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	}
+]

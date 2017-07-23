@@ -1,0 +1,76 @@
+@import "./node_modules/bootstrap/scss/_variables";
+@import "custom-variables";
+body {
+	background: #F2F6FA;
+}
+.app-header {
+	border-bottom: solid 2px $border-color;
+}
+.app-header.navbar {
+	position: relative;
+	flex-direction: row;
+	height: $navbar-height;
+	margin: 0;
+	padding: 0 1.5em;
+	background-color: $navbar-bg;
+	.navbar-brand {
+	    display: inline-block;
+	    height: 40px;
+	    padding: 0 0 0 50px;
+	    margin: 10px 0 0 10px;
+	    background-image: url('../img/logo.png');
+	    background-repeat: no-repeat;
+	    background-position: left center;
+	    color: $black;
+	    text-decoration: none;
+	    h5 {
+	    	margin-top: 5px;
+	    	font-weight: bold;
+	    	span {
+	    		font-weight: 300;
+	    		color: $gray;
+	    	}
+	    }
+  	}
+
+	.navbar-nav {
+	    flex-direction: row;
+	    align-items: center;
+  	}
+
+  	.nav-item {
+	    position: relative;
+	    min-width: 50px;
+	    margin: 0 !important;
+	    text-align: center;
+    	.nav-link {
+			padding-top: 0;
+			padding-bottom: 0;
+			border: 0;
+			background: 0;
+			color: $gray;
+			.badge {
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				margin-top: -16px;
+				margin-left: 0;
+			}
+
+			> .img-avatar {
+				height: 40px;
+				margin: 0 0 0 20px;
+				border-radius: 50px;
+			}
+	}
+  }
+
+  .dropdown-menu {
+    padding-bottom: 0;
+    line-height: $line-height-base;
+  }
+
+  .dropdown-item {
+    min-width: 180px;
+  }
+}

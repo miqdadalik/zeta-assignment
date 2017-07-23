@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
+    	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+		<title>Project Dashboard</title>
+	</head>
+	<body class="page-body">
+		<header class="app-header navbar">
+	        <a class="navbar-brand" href="#">
+	        	<h5>Hubstaff <span>Projects</span></h5>
+	        </a>
+	        <ul class="nav navbar-nav ml-auto hidden-sm-down">
+	            <li class="nav-item d-md-down-none">
+	                <a class="nav-link" href="#">
+	                	<i class="fa fa-search"></i>
+	                </a>
+	            </li>
+	            <li class="nav-item d-md-down-none">
+	                <a class="nav-link" href="#">
+	                	<i class="fa fa-bell"></i>
+	                	<span class="badge badge-pill badge-danger">5</span>
+	                </a>
+	            </li>  
+	            <li class="nav-item dropdown">
+	                <a class="nav-link dropdown-toggle nav-link" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+	                    <img src="../../img/avatar.png" class="img-avatar" >
+	                </a>
+	                <div class="dropdown-menu dropdown-menu-right">
+	                    <a class="dropdown-item" href="#"><i class="fa fa-user"></i> Profile</a>
+	                    <a class="dropdown-item" href="#"><i class="fa fa-wrench"></i> Settings</a>
+	                    <a class="dropdown-item" href="#"><i class="fa fa-lock"></i> Logout</a>
+	                </div>
+	            </li>
+	        </ul>
+	    </header>
+	    <div class="row no-gutters justify-content-center sub-header">
+	    	<div class="col-12 col-md-4">
+	    		<div class="people-container">
+	    			<ul>
+	    				<li>
+	    					<span class="add">
+	    						+
+	    					</span>
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    						<img src="../../img/avatar.png" />
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    						<img src="../../img/avatar.png" />
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    						<img src="../../img/avatar.png" />
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<a href="#">
+	    						<img src="../../img/avatar.png" />
+	    					</a>
+	    				</li>
+	    				<li>
+	    					<span class="count">
+	    						+42
+	    					</span>
+	    				</li>
+	    			</ul>
+	    		</div>
+	    	</div>
+	    	<div class="col-12 col-md-4">
+	    		<div class="title-info">
+	    			<h3>Graphic Design</h3>
+	    			<div>
+	    				<ul>
+	    					<li>
+	    						<span class="circle circle-danger"></span>
+	    						3 overdue
+	    					</li>
+	    					<li>
+	    						<span class="circle circle-warning"></span>
+	    						4 approaching deadline
+	    					</li>
+	    					<li class="text-black">
+	    						<i class="fa fa-money" aria-hidden="true"></i>
+	    						<span class="text-success">$200</span>
+	    						<span> / $450</span>
+	    					</li>
+	    				</ul>
+	    			</div>
+	    		</div>
+	    	</div>
+	    	<div class="col-12 col-md-4">
+	    		<div class="actions-container">
+	    			<label class="time">
+	    				Tracking time on <b>2 cards</b>
+	    				<i class="fa fa-eye" aria-hidden="true"></i>
+	    			</label>
+	    			<div class="float-right">
+	    				<a href="">
+	    					<i class="fa fa-bars"></i>
+	    				</a>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="page-content">
+	    	<div class="tasks-page">
+		    	<div class="row no-gutters">
+		    		<div class="col-12 col-md-3">
+		    			<ul class="ideas-list">
+		    				<li class="header">
+		    					<h5>
+		    						IDEAS / TASKS
+		    						<a href="" class="float-right">
+		    							<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+		    						</a>
+		    					</h5>
+		    				</li>
+		    				<li class="input-container">
+		    					<input type="text" placeholder="Add a card..." class="input" />
+		    					<div class="input-actions">
+		    						<a href="javascript:;" class="text-success">
+		    							<i class="fa fa-check"></i>
+		    						</a>
+		    						<a href="javascript:;" class="text-danger">
+		    							<i class="fa fa-times"></i>
+		    						</a>
+		    					</div>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    		<div class="col-12 col-md-3">
+		    			<ul class="inprogress-list">
+		    				<li class="header">
+		    					<h5>
+		    						IN PROGRESS
+		    						<a href="" class="float-right">
+		    							<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+		    						</a>
+		    					</h5>
+		    				</li>
+		    				<li class="input-container">
+		    					<input type="text" placeholder="Add a card..." class="input" />
+		    					<div class="input-actions">
+		    						<a href="javascript:;" class="text-success">
+		    							<i class="fa fa-check"></i>
+		    						</a>
+		    						<a href="javascript:;" class="text-danger">
+		    							<i class="fa fa-times"></i>
+		    						</a>
+		    					</div>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    		<div class="col-12 col-md-3">
+		    			<ul class="review-list">
+		    				<li class="header">
+		    					<h5>
+		    						READY FOR REVIEW
+		    						<a href="" class="float-right">
+		    							<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+		    						</a>
+		    					</h5>
+		    				</li>
+		    				<li class="input-container">
+		    					<input type="text" placeholder="Add a card..." class="input" />
+		    					<div class="input-actions">
+		    						<a href="javascript:;" class="text-success">
+		    							<i class="fa fa-check"></i>
+		    						</a>
+		    						<a href="javascript:;" class="text-danger">
+		    							<i class="fa fa-times"></i>
+		    						</a>
+		    					</div>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    		<div class="col-12 col-md-3">
+		    			<ul class="approved-list">
+		    				<li class="header">
+		    					<h5>
+		    						APPROVED
+		    						<a href="" class="float-right">
+		    							<i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+		    						</a>
+		    					</h5>
+		    				</li>
+		    				<li class="input-container">
+		    					<input type="text" placeholder="Add a card..." class="input" />
+		    					<div class="input-actions">
+		    						<a href="javascript:;" class="text-success">
+		    							<i class="fa fa-check"></i>
+		    						</a>
+		    						<a href="javascript:;" class="text-danger">
+		    							<i class="fa fa-times"></i>
+		    						</a>
+		    					</div>
+		    				</li>
+		    			</ul>
+		    		</div>
+		    	</div>
+		    </div>
+	    </div>
+	</body>
+</html>

@@ -1,0 +1,44 @@
+[
+	{
+		"title": "Onboarding Screens",
+		"status": "warning",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Login error",
+		"status": "success",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Create a new logo for the web app",
+		"status": "success",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Improve the contrast to make Jared happy :D",
+		"status": "danger",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Header illustration",
+		"status": "success",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	},
+	{
+		"title": "Icons for the dashboard",
+		"status": "success",
+		"user": {
+			"img": "../../img/avatar.png"
+		}
+	}
+]
